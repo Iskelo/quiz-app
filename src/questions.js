@@ -229,7 +229,7 @@ export const questions = [
 	{
 		'id': 'q21',
 		'questionText': 'How do you destructure the properties that are sent to the Dish component?',
-		'questionImg': require('./img/q9.png'),
+		'questionImg': '',
 		'answerOptions': [
 			{ 'ansverText': 'function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }', isCorrect: false },
 			{ 'ansverText': 'function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }', isCorrect: true },

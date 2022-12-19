@@ -74,7 +74,7 @@ function App() {
       {showScore
         ?
         <div className="section__score">
-          Correct answer:{score} / {questions.length}
+          Correct answer: {score} / {questions.length}
           <button onClick={() => refresh()} className='refresh__btn'>Try again</button>
         </div>
         :
